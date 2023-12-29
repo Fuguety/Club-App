@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "9CGqUn5YKoVg+ufkacmKjOdTjbU9jYG7NDgwdDPgnGZBaM1faM67gRuZc1QYpXPugekLElVVQzN5xFhKQth7jA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work.iOS\\Pls Work.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phsr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\phsr\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\phsr\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Essentials de 1.8.0 para 1.7.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Pls Work.iOS -> Pls Work -> Xamarin.Essentials (>= 1.8.0) \r\n Pls Work.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Forms de 5.0.0.2622 para 5.0.0.2196. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Pls Work.iOS -> Pls Work -> Xamarin.Forms (>= 5.0.0.2622) \r\n Pls Work.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
