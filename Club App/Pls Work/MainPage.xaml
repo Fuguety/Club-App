@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pls_Work.MainPage"
+             BackgroundColor="#004C97">
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Image Source="logo.png" Aspect="AspectFit"/>
+
+            <StackLayout Padding="20,40,20,40">
+
+                <Label x:Name="WelcomeLabel" Text="Welcome" TextColor="#A50044" FontSize="Large"/>
+
+
+                <Button Text="Add User" Clicked="AddUsers" BackgroundColor="#A50044" TextColor="#FFFFFF" Margin="0,10,0,0"/>
+
+                <Button Text="Activity List" Clicked="Activities" BackgroundColor="#FFD100" TextColor="#000000" Margin="0,10,0,0"/>
+
+                <Button Text="User List" Clicked="UserList" BackgroundColor="#000000" TextColor="#FFFFFF" Margin="0,10,0,0"/>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+
+
+

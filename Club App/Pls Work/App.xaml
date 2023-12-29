@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pls_Work.App">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="TextColor" Value="Blue"/>
+                <Setter Property="BackgroundColor" Value="LightGray"/>
+
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="WhiteSmoke"/>
+            </Style>
+
+        </ResourceDictionary>
+
+
+    </Application.Resources>
+</Application>

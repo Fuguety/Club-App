@@ -1,0 +1,39 @@
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.deps.json
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.dll
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\bin\Debug\netstandard2.0\ref\Pls Work.dll
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.pdb
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.csproj.AssemblyReference.cache
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.AssemblyInfoInputs.cache
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.AssemblyInfo.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.dll
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\refint\Pls Work.dll
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.pdb
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\AddUser.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\List.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\UserDetails.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\Activities.xaml.g.cs
+C:\Users\Usuário\source\repos\Pls Work\Pls Work\obj\Debug\netstandard2.0\UserActivities.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.deps.json
+C:\Users\phsr\Desktop\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.dll
+C:\Users\phsr\Desktop\Pls Work\Pls Work\bin\Debug\netstandard2.0\ref\Pls Work.dll
+C:\Users\phsr\Desktop\Pls Work\Pls Work\bin\Debug\netstandard2.0\Pls Work.pdb
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.csproj.AssemblyReference.cache
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Activities.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\AddUser.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\List.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\UserDetails.xaml.g.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.AssemblyInfoInputs.cache
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.AssemblyInfo.cs
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.csproj.CoreCompileInputs.cache
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.dll
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\refint\Pls Work.dll
+C:\Users\phsr\Desktop\Pls Work\Pls Work\obj\Debug\netstandard2.0\Pls Work.pdb

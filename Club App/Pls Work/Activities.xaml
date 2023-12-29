@@ -1,0 +1,40 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pls_Work.Activities">
+
+    <StackLayout>
+        <Label Text="Activities" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+        <DatePicker x:Name="datePicker" />
+        <Picker x:Name="activityPicker" Title="Select Activity">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Free activity</x:String>
+                    <x:String>Gaming</x:String>
+                    <x:String>Swimming</x:String>
+                    <x:String>Yoga</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button Text="Save Activity" Clicked="OnSaveActivity" />
+
+
+        <Label Text="Enrolled Activities" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        <ListView x:Name="enrolledActivitiesListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding ActivityType}" VerticalOptions="CenterAndExpand" />
+                            <Button Text="Remove" Clicked="OnRemoveActivity" CommandParameter="{Binding .}" TextColor="Red" FontSize="Small" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </StackLayout>
+
+</ContentPage>

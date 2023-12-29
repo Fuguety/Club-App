@@ -1,0 +1,38 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pls_Work.UserDetails">
+
+    <StackLayout>
+        <Label x:Name="nameLabel" />
+        <Label x:Name="lastNameLabel" />
+        <Label x:Name="isPartnerLabel" />
+        <Label x:Name="genderLabel" />
+        <Label x:Name="bdayLabel" Text="{Binding currentUser.datetime, StringFormat='{0:dd/MM/yyyy}'}" />
+
+
+        <Label x:Name="ActivitiesHeader" Text="{Binding ActivitiesHeader}" />
+        <ListView x:Name="enrolledActivitiesListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding ActivityType}" VerticalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Date, StringFormat=' - {0:MM/dd/yyyy}'}" VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout>
+            <Label Text="Change Partner Status:" />
+            <Switch x:Name="partnerSwitch" IsToggled="{Binding currentUser.isPartner, Mode=TwoWay}" />
+        </StackLayout>
+
+        <Button Text="Manage Activities" Clicked="OnManageActivitiesClicked" />
+
+        <Button Text="Delete User" Clicked="OnDeleteUserClicked" />
+
+    </StackLayout>
+
+</ContentPage>
