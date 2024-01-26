@@ -46,11 +46,8 @@ The app consists of several key components:
 
 ## Installation
 
-To run the app locally, ensure you have the necessary Xamarin.Forms development environment set up.
-
-bash
-# Clone the repository
-git clone https://github.com/Fuguety/Club-App
+- To run the app locally, ensure you have the necessary Xamarin.Forms development environment set up.
+- git clone https://github.com/Fuguety/Club-App
 
 _**Open the project in your preferred Xamarin.Forms development environment.**_
 
@@ -69,6 +66,5 @@ _**Open the project in your preferred Xamarin.Forms development environment.**_
 
 This project is licensed under the **[MIT License](https://opensource.org/license/mit/).**
 
-Replace placeholders _like_ `yourusername` _and_ adjust the paths _if_ your project structure is different.
 
 
