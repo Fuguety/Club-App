@@ -63,3 +63,10 @@ _**Open the project in your preferred Xamarin.Forms development environment.**_
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![vstudio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
+<br>
+
+This project is licensed under the **[MIT License](https://opensource.org/license/mit/).**
+
+Replace placeholders _like_ `yourusername` _and_ adjust the paths _if_ your project structure is different.
+
+
