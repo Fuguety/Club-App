@@ -46,10 +46,23 @@ The app consists of several key components:
 
 ## Installation
 
-- To run the app locally, ensure you have the necessary Xamarin.Forms development environment set up.
-- git clone https://github.com/Fuguety/Club-App
+1. Clone the repository:
+   ```
+   git clone https://github.com/Fuguety/Club-App
+2. Ensure you have the following prerequisites installed:
 
+- [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin)
+- [Visual Studio](https://visualstudio.microsoft.com) _(Recommended)_
+
+  - To run the app locally, ensure you have the necessary Xamarin.Forms development environment set up.
+    
 _**Open the project in your preferred Xamarin.Forms development environment.**_
+
+
+
+
+
+
 
 <br>
 
