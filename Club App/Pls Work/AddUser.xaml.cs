@@ -1,13 +1,18 @@
 ﻿using Xamarin.Forms;
 using System;
+using System.Collections.Generic;
 
 namespace Pls_Work
 {
     public partial class AddUser : ContentPage
     {
+        UserManagment UserManagment;
+
         public AddUser()
         {
             InitializeComponent();
+
+            UserManagment = new UserManagment();
         }
 
         private async void OnSaveUserClicked(object sender, EventArgs e)
@@ -26,9 +31,16 @@ namespace Pls_Work
                 return; // Go back
             }
 
+            if (string.IsNullOrWhiteSpace(gender))
+            {
+                await DisplayAlert("Error", "Please insert your gender.", "OK");
+                return;
+            }
+
+            List<Activity> emptyActivityList = new List<Activity>();
 
             // Save user
-            User.SaveUser(name, lastName, bday, isPartner, gender);
+            UserManagment.CreateUser(name, lastName, bday, isPartner, gender);
 
             // Show saving succesfull
             await DisplayAlert("Nice", "User saved correctly", "OK");

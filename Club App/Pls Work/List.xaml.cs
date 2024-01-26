@@ -7,12 +7,13 @@ namespace Pls_Work
 {
     public partial class List : ContentPage
     {
-        List<User> userList;
-        public List(List<User> users)
+        UserManagment UserManagment = new UserManagment();
+
+        public List()
         {
             InitializeComponent();
 
-            userListView.ItemsSource = User.users;
+            userListView.ItemsSource = UserManagment.users;
 
             userListView.ItemTemplate = new DataTemplate(() =>
             {
@@ -40,6 +41,7 @@ namespace Pls_Work
                 return viewCell;
             });
 
+
             userListView.ItemSelected += async (sender, e) =>
             {
                 if (e.SelectedItem == null)
@@ -47,21 +49,27 @@ namespace Pls_Work
 
                 var selectedUser = e.SelectedItem as User;
 
-                // Navigate to UserDetailsPage and pass the selected user
-                await Navigation.PushAsync(new UserDetails(selectedUser));
+                // Navigate to UserDetailsPage and pass the selected user and UserManagment object
+                await Navigation.PushAsync(new UserDetails(selectedUser, UserManagment));
 
                 // Deselect the item
                 userListView.SelectedItem = null;
             };
+
+
         }
-        
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
-            userListView.ItemsSource = null;
-            userListView.ItemsSource = User.users;
+            RefreshUserList();
         }
 
+        public void RefreshUserList()
+        {
+            // Refresh the userListView or update its ItemsSource with the updated list of users
+            userListView.ItemsSource = null;
+            userListView.ItemsSource = UserManagment.users;
+        }
     }
 }

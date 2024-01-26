@@ -1,24 +1,27 @@
 ﻿using Xamarin.Forms;
 using System.Linq;
 using System;
+using System.Threading.Tasks;
 
 
 namespace Pls_Work
 {
     public partial class UserDetails : ContentPage
     {
-        
+        private UserManagment UserManagment;
+
         public User currentUser { get; set; }
 
-        public UserDetails(User selectedUser)
+        public UserDetails(User selectedUser, UserManagment userManagment)
         {
             InitializeComponent();
             currentUser = selectedUser;
+            UserManagment = userManagment;
 
             BindingContext = this; // Set the binding context to the instance of UserDetails
 
 
-
+            codeLabel.Text = $"Code: {currentUser.Code}";
             nameLabel.Text = $"Name: {currentUser.name}";
             lastNameLabel.Text = $"Last Name: {currentUser.lastName}";
             isPartnerLabel.Text = $"Partner: {(currentUser.isPartner ? "Yes" : "No")}";
@@ -29,7 +32,11 @@ namespace Pls_Work
 
             partnerSwitch.Toggled += ChangePartner;
 
+            // Saves when users enters page
+            UserManagment.UpdateUser(selectedUser);
+
         }
+
 
         private async void OnManageActivitiesClicked(object sender, EventArgs e)
         {
@@ -42,6 +49,7 @@ namespace Pls_Work
             isPartnerLabel.Text = $"Partner: {(currentUser.isPartner ? "Yes" : "No")}";
         }
 
+
         private async void OnDeleteUserClicked(object sender, EventArgs e)
         {
             // Confirm
@@ -49,10 +57,20 @@ namespace Pls_Work
 
             if (answer)
             {
-                User.users.Remove(currentUser); // Delete user
+                UserManagment.users.Remove(currentUser); // Delete user
+                JsonManager.SaveUsers(UserManagment.users); // Update JSON file
                 await Navigation.PopAsync();
             }
         }
+
+        // Saves on Button click
+        private async void OnUpdateUser(object sender, EventArgs e)
+        { 
+            UserManagment.UpdateUser(currentUser);
+            await DisplayAlert("Success", "User updated successfully", "OK");
+        }
+
+
 
         private void checkActivities()
         {
@@ -66,10 +84,22 @@ namespace Pls_Work
                 ActivitiesHeader.Text = "No Activities";
             }
         }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
             checkActivities();
+        }
+
+        // Saves on exit
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            UserManagment.UpdateUser(currentUser);
+            if (Navigation.NavigationStack.Last() is List userListPage)
+            {
+                userListPage.RefreshUserList(); 
+            }
         }
 
     }

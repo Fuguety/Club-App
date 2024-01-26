@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\Pls Work.csproj": {}
+    "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\Pls Work.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\Pls Work.csproj": {
+    "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\Pls Work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\Pls Work.csproj",
+        "projectUniqueName": "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\Pls Work.csproj",
         "projectName": "Pls Work",
-        "projectPath": "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\Pls Work.csproj",
-        "packagesPath": "C:\\Users\\phsr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\obj\\",
+        "projectPath": "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\Pls Work.csproj",
+        "packagesPath": "C:\\Users\\lucze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\phsr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,9 +51,13 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.8.0, )"
+              "version": "[1.8.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

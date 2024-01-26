@@ -3,6 +3,7 @@
              x:Class="Pls_Work.UserDetails">
 
     <StackLayout>
+        <Label x:Name="codeLabel" />
         <Label x:Name="nameLabel" />
         <Label x:Name="lastNameLabel" />
         <Label x:Name="isPartnerLabel" />
@@ -32,6 +33,7 @@
         <Button Text="Manage Activities" Clicked="OnManageActivitiesClicked" />
 
         <Button Text="Delete User" Clicked="OnDeleteUserClicked" />
+        <Button Text="Updtade User" Clicked="OnUpdateUser" />
 
     </StackLayout>
 

@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "wR9w3PgQekdawWpLVm3FpY3bBFknP6+aHr1wLid066v/USZXTIyk3FliIRwzzFpWaxip1saNQnTH17oHjTGAtQ==",
+  "dgSpecHash": "9lx49xz9+a3bXmSgNelIGD61QklUP26u6bg0Jb6TyoHBjrHf1qCfc5Y/SP28ns85ccSG2MB5tsrYOW5HLmoq2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phsr\\Desktop\\Pls Work\\Pls Work\\Pls Work.csproj",
+  "projectFilePath": "C:\\Users\\lucze\\VSCODE\\Club App - Copia\\Pls Work\\Pls Work.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\phsr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\phsr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\phsr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\phsr\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
-    "C:\\Users\\phsr\\.nuget\\packages\\xamarin.forms\\5.0.0.2622\\xamarin.forms.5.0.0.2622.nupkg.sha512"
+    "C:\\Users\\lucze\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lucze\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lucze\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\lucze\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\lucze\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\lucze\\.nuget\\packages\\xamarin.forms\\5.0.0.2622\\xamarin.forms.5.0.0.2622.nupkg.sha512"
   ],
   "logs": []
 }

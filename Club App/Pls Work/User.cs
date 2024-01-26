@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace Pls_Work
 {
     public class User
     {
+        public int Code { get; set; }
         public string name { get; set; }
         public string lastName { get; set; }
         public DateTime datetime { get; set; }
@@ -15,23 +17,11 @@ namespace Pls_Work
 
         public ObservableCollection<Activity> activities { get; set; }
 
-        public User() { activities = new ObservableCollection<Activity>(); }
-
-        public static List<User> users { get; set; } = new List<User>();
-
-        public static void SaveUser(string name, string lastName, DateTime bday, bool isPartner, string gender)
+        public User() 
         {
-            User newUser = new User
-            {
-                name = name,
-                lastName = lastName,
-                datetime = bday,
-                isPartner = isPartner,
-                gender = gender,
-                activities = new ObservableCollection<Activity>()
-            };
-
-            users.Add(newUser);
+            activities = activities ?? new ObservableCollection<Activity>();
         }
+
+        
     }
 }

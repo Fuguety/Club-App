@@ -8,6 +8,7 @@ namespace Pls_Work
     public partial class Activities : ContentPage
     {
         User user;
+        UserManagment UserManagment;
 
         public Activities(User currentUser)
         {
@@ -34,6 +35,7 @@ namespace Pls_Work
 
                 // Save the activity to the user
                 user.activities.Add(newActivity);
+                //UserManagment.UpdateUser(user);
 
                 // Clear page
                 activityPicker.SelectedItem = null;
@@ -44,8 +46,10 @@ namespace Pls_Work
 
                 DisplayAlert("Nice", "Activity recorded with success", "OK");
             }
-
-            else { DisplayAlert("Error", "Please select an activity", "OK"); }
+            else
+            {
+                DisplayAlert("Error", "Please select an activity", "OK");
+            }
         }
 
         // Remove Activity
@@ -60,4 +64,5 @@ namespace Pls_Work
         }
 
     }
+
 }

@@ -9,8 +9,7 @@ namespace Pls_Work
         public App()
         {
             InitializeComponent();
-            User user = new User(); // Enters as a new user 
-            MainPage = new NavigationPage(new MainPage(user)); // Replace MainPage with your actual starting page
+            MainPage = new NavigationPage(new MainPage()); // Replace MainPage with your actual starting page
         }
 
         protected override void OnStart()
